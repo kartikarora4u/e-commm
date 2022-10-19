@@ -94,7 +94,7 @@ app.post("/login", (request, response) => {
             { expiresIn: "24h" }
           );
 
-          
+          response.cookie("TOKEN",token);
           response.status(200).send({
             message: "Login Successful",
             email: user.email,

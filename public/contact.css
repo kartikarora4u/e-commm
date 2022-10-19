@@ -18,11 +18,11 @@ body {
   font-size: 12px;
   line-height: 30px;
   color: #777;
-  background: #9b59b6;
+  background: #FFF;
 }
 
 .container {
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -40,7 +40,7 @@ body {
 #contact {
   background: #FFF;
   padding: 25px;
-  margin: 150px 0;
+  margin: 70px 0px 0px 0px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
@@ -141,4 +141,39 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 0px 20px;
+}
+.menu-icon {
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+p {
+  color: #555;
 }
