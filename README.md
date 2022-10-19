@@ -6,7 +6,7 @@
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 - [mongoose](https://mongoosejs.com/docs/)
 - [mongodb](https://www.mongodb.com/cloud/atlas)
-- [bcrypt](https://www.npmjs.com/package/bcrypt)
+- [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
 ## SETTING UP 
