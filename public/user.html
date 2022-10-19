@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/index.css">
+    <script src="/static/index.js"></script>
+    <title>Xenon</title>
+</head>
+<body>
+    <section>
+      <div class="container">
+        <div class="user signinBx">
+          <div class="imgBx"><img src="/static/login.png" alt="" /></div>
+          <div class="formBx">
+            <form action="/login" method="post">
+              <h2>Sign In</h2>
+              <input type="email" name="email" placeholder="Username" />
+              <input type="password" name="password" placeholder="Password" />
+              <input type="submit" name="" value="Login" />
+              <p class="signup">
+                Don't have an account ?
+                <a href="#" onclick="toggleForm();">Sign Up.</a>
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="user signupBx">
+          <div class="formBx">
+            <form action="/register" method="post">
+              <h2>Create an account</h2>
+              <input type="text" name="username" placeholder="Username" />
+              <input type="email" name="email" placeholder="Email Address" />
+              <input type="password" name="password" placeholder="Create Password" />
+              <input type="submit" name="" value="Sign Up" />
+              <p class="signup">
+                Already have an account ?
+                <a href="#" onclick="toggleForm();">Sign in.</a>
+              </p>
+            </form>
+          </div>
+          <div class="imgBx"><img src="/static/signup.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
